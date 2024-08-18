@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+}
+
+.jr-logo {
+    max-height: 80px; /* Increased logo size */
+    margin-right: 10px;
+}
+
+.bumn-logo {
+    max-height: 80px; /* Increased logo size */
+}
+
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow below navbar */
+}
+
+.custom-card {
+    border: none;
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-text {
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #00a1e4;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between; /* Align contact info to the left and social icons to the right */
+    align-items: center; /* Center content vertically */
+    margin-top: 2rem;
+    padding: 1rem 0;
+    border-top: 1px solid #ddd;
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info p {
+    margin: 0.5rem 0;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+}
+
+.social-icons img {
+    max-height: 40px;
+    margin: 0 10px;
+}
+
+.footer-contact {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+}
+
+.footer-contact li {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 8px; /* Space between items */
+}
+
+.footer-contact .icon {
+    margin-right: 8px; /* Space between icon and text */
+    height: 1.5em; /* Adjust the size of the icon */
+}
+
